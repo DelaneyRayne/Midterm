@@ -14,10 +14,15 @@ header {
     text-align: center;
 }
 
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
 .logo img {
-    max-width: 100px;
-    display: block;
-    margin: 0 auto;
+    max-width: 120px;
 }
 
 /* Navigation */
@@ -30,6 +35,18 @@ nav a {
     margin: 0 15px;
     font-weight: bold;
     color: #444; /* Darker text for main navigation */
+}
+
+/* Banner */
+.banner {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
 /* Layout */
@@ -47,7 +64,7 @@ nav a {
     text-align: center;
 }
 
-.sidebar img, .banner-placeholder img {
+.sidebar img {
     max-width: 100%;
     border-radius: 10px;
 }
